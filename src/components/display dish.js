@@ -1,13 +1,13 @@
 import React,{useState,useEffect} from 'react'
 
-const [data,setData]=useState([])
-
-function display() {
-    return fetch("http://localhost:3000/food")
-        .then(respond => respond.json())
-    .then(data=>setData(data))
-
+export default function Display() {
+    const [data,setData]=useState([])
+    useEffect(() => {
+        fetch("http://localhost:3000/food")
+          .then((res) => res.json())
+          .then(setData);
+    }, []);
+    console.log(data);
 }
-useEffect(display, [])
   
 console.log(data);

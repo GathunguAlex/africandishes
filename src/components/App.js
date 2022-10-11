@@ -1,15 +1,15 @@
 import React from 'react';
 import '../App.css';
-import Navbar from './nav';
+//import Navbar from './nav';
 
 
 function App() {
-  return (
+  //return (
      
-  <Navbar/>
+  //<Navbar/>
 
   
-  );
+  //)
 }
 
 export default App;
