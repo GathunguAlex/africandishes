@@ -40,7 +40,7 @@ import React from 'react'
                  <a
                    class="nav-link disabled"
                    href="#"
-                   tabindex="-1"
+                   subindex="-1"
                    aria-disabled="true"
                  >
                    Disabled
