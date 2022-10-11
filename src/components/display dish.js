@@ -10,4 +10,12 @@ export default function Display() {
     console.log(data);
 }
   
-console.log(data);
+{
+    foods.map(food =>
+        <tr key={food.id}>
+            <td>{food.food}</td>
+            <td>{food.image}</td>
+            <td> {food.description}</td>
+        </tr>
+    )
+}
