@@ -1,18 +1,24 @@
-import React,{useState} from 'react';
-import '../App.css';
-import AddDish from './Add dish';
-import Footer from './Footer';
-import Nav from './Nav';
-import Display from './Display dish';
-import RemoveDish from './Remove dish';
+import React from "react";
+import { Route, Routes } from "react-router-dom";
+import Nav from "./Nav";
+import Display from "./DisplayDish";
+import AddDish from "./AddDish";
+import RemoveDish from "./RemoveDish";
+import Footer from "./Footer";
 
-const allFoods = ['all'. ...new Set(dishes.map(dishes) => dishes.food)];
 
 function App() {
-  const [addDish, setAddDish] = useState(dishes)
-  const [removeDish,setRemoveDish]=useState("")
-  return 
-  
-};
+  return (
+    <div>
+      <Nav />
+      <Routes>
+        <Route path="/DisplayDish" element={<Display />} />
+        <Route path="/AddDish" element={<AddDish />} />
+        <Route path="/RemoveDish" element={<RemoveDish />} />
+        <Route path="/Footer" element={<Footer />} />
+      </Routes>
+    </div>
+  );
+}
 
 export default App;
