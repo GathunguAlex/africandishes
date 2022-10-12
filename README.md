@@ -1,3 +1,5 @@
+#This is an app that will display two typesof food and will also have a place to add and remove types of food
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
