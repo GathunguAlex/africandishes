@@ -1,16 +1,12 @@
 import React from 'react';
 import '../App.css';
 import AddDish from './Add dish';
-//import Navbar from './nav';
-
+import Footer from './Footer';
+import Nav from './Nav';
 
 function App() {
-  //return (
-     
-  //<Navbar/>
-
+  return 
   
-  //)
-}
+};
 
 export default App;
