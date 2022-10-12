@@ -2,7 +2,7 @@
     "foods": [
       {
         "id": 1,
-        "food": "nyama",
+        "name": "nyama",
         "image": "https://images.hivisasa.com/1200/46Qkn5alaj2959-728-1430721440.jpg ",
         "description": "african food"
         },
@@ -10,7 +10,7 @@
   
         {
           "id": 2,
-          "food": "rice",
+          "name": "rice",
           "image": "https://www.budgetbytes.com/wp-content/uploads/2022/04/How-to-Cook-Rice-bowl.jpg",
           "description": "indian food"
           }
